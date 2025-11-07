@@ -1,0 +1,17 @@
+{
+	"name": "slendium/http-superglobals",
+	"description": "An implementation of slendium/http based on the PHP superglobals.",
+	"type": "library",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Slendium\\HttpSuperglobals\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "C. Fahner",
+			"email": "cfahner.git.ixuk9phi@slendium.org"
+		}
+	]
+}
