@@ -3,10 +3,14 @@
 	"description": "An implementation of slendium/http based on the PHP superglobals.",
 	"type": "library",
 	"license": "MIT",
-	"autoload": {
-		"psr-4": {
-			"Slendium\\HttpSuperglobals\\": "src/"
-		}
+	"autoload": { "psr-4": { "Slendium\\HttpSuperglobals\\": "src/" } },
+	"autoload-dev": { "psr-4": { "Slendium\\HttpSuperglobalsTests\\": "tests/" } },
+	"require": {
+		"slendium/http": "^0.2"
+	},
+	"require-dev": {
+		"phpstan/phpstan": "^2.1",
+		"phpunit/phpunit": "^12.5.8"
 	},
 	"authors": [
 		{
